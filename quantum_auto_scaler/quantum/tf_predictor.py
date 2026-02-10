@@ -7,7 +7,7 @@ of system workload. Supports both CPU and TPU execution.
 Developed by Brion Quantum AI Team
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 import numpy as np
 from typing import Dict, Any, List, Optional, Tuple
