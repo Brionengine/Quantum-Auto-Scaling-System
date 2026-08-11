@@ -5,10 +5,15 @@ Configurable scaling policies: reactive, predictive, and quantum-enhanced.
 
 Developed by Brion Quantum AI Team
 """
+from __future__ import annotations
+
 
 __version__ = "1.0.1"
 
-import numpy as np
+try:
+    import numpy as np
+except ImportError:  # optional dependency: pip install numpy
+    np = None
 from typing import Dict, Any, Optional
 from enum import Enum
 
